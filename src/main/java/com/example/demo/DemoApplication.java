@@ -16,7 +16,7 @@ public class DemoApplication {
 	class HelloController {
 		@GetMapping("/")
 		String hello() {
-			return "Success is a journey, not a destination. The doing is often more important than the outcome.";
+			return "Hello world";
 		}
 	}
 
